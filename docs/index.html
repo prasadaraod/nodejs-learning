@@ -11,11 +11,9 @@
     window.$docsify = {
         name: 'NodeJS Notes',
         repo: 'https://github.com/prasadaraod/nodejs-learning',
-        loadSidebar: true,
-        alias: {
-            '/.*/_sidebar.md': '/_sidebar.md' // This helps find the sidebar in subfolders
-        },
-        subMaxLevel: 3
+        loadSidebar: 'nav.md',
+        basePath: './',
+        relativePath: true
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
