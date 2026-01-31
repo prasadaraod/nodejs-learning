@@ -9,10 +9,13 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'NodeJS Notes',
-      repo: 'https://github.com/prasadaraod/nodejs-learning',
-      loadSidebar: true,
-      subMaxLevel: 2
+        name: 'NodeJS Notes',
+        repo: 'https://github.com/prasadaraod/nodejs-learning',
+        loadSidebar: true,
+        alias: {
+            '/.*/_sidebar.md': '/_sidebar.md' // This helps find the sidebar in subfolders
+        },
+        subMaxLevel: 3
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
