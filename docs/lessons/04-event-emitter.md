@@ -1,4 +1,4 @@
-# 04. Event Emitter
+# Lesson 04: Event Emitter
 
 ### Theory: The Observer Patterrn
 Nodejs is built on an **event-driven architecture** . This means that much of the core functionality is based on objects that emit named events which cause "Listener" functions to be executed.

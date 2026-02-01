@@ -1,4 +1,4 @@
-# 01. Node.js Architecture
+# Lesson 01: Node.js Architecture
 
 ### Theory
 Node.js uses the **V8 Engine** and **Libuv**. It is single-threaded but handles concurrency via the Event Loop.
